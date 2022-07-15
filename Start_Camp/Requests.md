@@ -1,4 +1,5 @@
-# Requests 하는법
+# Requests
+### Requests란 API에서 필요한 데이터를 요청하여 가져오는 것
 ## * 다음과 같이 .py를 작성
 
 import requests

@@ -1,12 +1,12 @@
 # Branch
+
+**Head** : 추가한 새 Branch에 Head를 지정하여 수정한다
+
+**Branch** : 기본 Master이고 추가하여(ex. feature-a, feature-b 등) 기존 상용버전을 수정한다
+
 ---
 
-**Head**
-
-내가 바라보는 **Branch**
-**master**와 **branch**
-
-### merge
+## merge
 1. **fast - forward**
     기존 상용버전의 Branch에서 수정한 버전을 빨리감기 하듯이 적용하는 방법
 2. **3 - way merging**
