@@ -71,7 +71,34 @@
      print를 사용하면 호출될 때마다 값이 출력됨
      데이터 처리를 위해서는 return 사용
 
+#### 함수의 입력
+
+##### - 가변인자(*args)
+
+   여러 개의 Positional Argument를 하나의 필수 parameter로 받아서 사용
+     ex) def add(*args)
+                  add(2)
+                  add(2, 3, 4, 5)
+
+- 패킹과 언패킹
+  
+  - 패킹 : 여러 개의 데이터를 묶어서 변수에 할당하는 것
+  
+  - 언패킹 : 시퀀스 속의 요소들을 여러 개의 변수에 나누어 할당하는 것
+
+##### - 가변 키워드 인자(**kwargs)
+
+  몇 개의 키워드 인자를 받을지 모르는 함수를 정의할 때 유용
+
+  **딕셔너리로 묶여서 처리**
+    ex) def famaily(**kwargs):
+                  for key, value, in kwargs.items():
+                           print(key, ":", value)
+           family(father = '아부지', mother = '어무니', baby = ' 아기')
+
 ---
+
+
 
 ### Python의 범위(scope)
 
